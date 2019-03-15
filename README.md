@@ -45,9 +45,13 @@ Since the file size is too large for git/github, here's the link to download the
     wget "http://www.gutenberg.org/files/1342/1342-0.txt"
   ```
 
-- Canonical URLs to Books and Authors
-  - http://www.gutenberg.org/ebooks/1342
+- Canonical URLs to txt format of the Books
+  - http://www.gutenberg.org/files/1342/1342-0.txt
+  - http://www.gutenberg.org/files/161/161.txt
+  - http://www.gutenberg.org/cache/epub/946/pg946.txt
+- Canonical URLs for Authors
   - http://www.gutenberg.org/authors/Jane_Austen
+- Note that audio, and non-English documents should be excluded
 
 ### Get Age and Time Period from Wikipedia
 - Begin by installing wikipedia:

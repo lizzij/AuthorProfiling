@@ -1,0 +1,10 @@
+Born 1775
+1813 38 http://www.gutenberg.org/files/1342/1342-0.txt
+1815 40 http://www.gutenberg.org/files/158/158-0.txt
+1811 36 http://www.gutenberg.org/files/161/161.txt
+1811 36 http://www.gutenberg.org/cache/epub/161/pg161.txt
+1803 28 http://www.gutenberg.org/files/121/121-0.txt
+1814 39 http://www.gutenberg.org/files/141/141-0.txt
+1817 42 http://www.gutenberg.org/cache/epub/105/pg105.txt
+1794 19 http://www.gutenberg.org/cache/epub/946/pg946.txt
+1790 15 http://www.gutenberg.org/files/1212/1212-0.txt
