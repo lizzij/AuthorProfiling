@@ -2,18 +2,17 @@
 NLP project: classification of time period and author age in fiction
 
 ## Preprocessing
-Get text files in English Language (ISO code EN)
+- Get text files in English Language (ISO code EN)
 ```
 wget -w 2 -m -H "http://www.gutenberg.org/robot/harvest?filetypes[]=txt&langs[]=en"
 ```
 
-Get Catalog Data
+- Get Catalog Data
 The complete Project Gutenberg catalog is available in [RDF/XML Format](https://www.w3.org/RDF/).
 This file is a tar archive that contains one RDF file for each book. The RDF is based on the [DCMI](http://dublincore.org/documents/dc-rdf/) recommendation
 Since the file size is too large for git/github, here's the link to download the [catalog](https://www.gutenberg.org/wiki/Gutenberg:Feeds).
 
-For instance, here's an extraction from the catalogue,
-note in the first row, the text ID is 14600
+- For instance, here's an extraction from the catalogue, note that in the first row, the text ID is 14600
 ```
 <pgterms:etext rdf:ID="etext14600">
   <dc:publisher>&pg;</dc:publisher>
@@ -34,7 +33,7 @@ A Treatise on the Construction and Application of Weaves, and the Decomposition 
   <dc:rights rdf:resource="&lic;" />
 </pgterms:etext>
 ```
-To get the above line of code, use:
+- To get the above line of code, use:
 ```
 wget http://www.gutenberg.org/cache/epub/14600/pg14600.txt
 ```
