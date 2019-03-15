@@ -2,6 +2,8 @@
 NLP project: classification of time period and author age in fiction
 
 ## Preprocessing
+
+### Get Corpus from Gutenberg
 - Get text files in English Language (ISO code EN)
 ```shell
 wget -w 2 -m -H "http://www.gutenberg.org/robot/harvest?filetypes[]=txt&langs[]=en"
@@ -33,7 +35,13 @@ Since the file size is too large for git/github, here's the link to download the
     <dc:rights rdf:resource="&lic;" />
   </pgterms:etext>
   ```
-  - To get the above line of code, use:
+  - To get the book from the catalog above, use:
   ```shell
   wget "http://www.gutenberg.org/cache/epub/14600/pg14600.txt"
   ```
+
+### Get Age and Time Period from Wikipedia
+Begin by installing wikipedia:
+```
+$ pip install wikipedia
+```
