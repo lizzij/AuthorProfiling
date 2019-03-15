@@ -41,8 +41,10 @@ Since the file size is too large for git/github, here's the link to download the
   ```
 
 ### Get Age and Time Period from Wikipedia
-Begin by installing wikipedia:
+- Begin by installing wikipedia:
 ```
 $ pip install wikipedia
 ```
-Run 
+- Run wiki.py
+  - When prompted to input query, type the query and hit Enter (for instance, try "jane austen")
+  - Returns a summary from the Wikipedia page containing the birth and publication data of main authors
