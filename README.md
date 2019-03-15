@@ -3,7 +3,7 @@ NLP project: classification of time period and author age in fiction
 
 ## Preprocessing
 - Get text files in English Language (ISO code EN)
-```
+```shell
 wget -w 2 -m -H "http://www.gutenberg.org/robot/harvest?filetypes[]=txt&langs[]=en"
 ```
 
@@ -13,7 +13,7 @@ This file is a tar archive that contains one RDF file for each book. The RDF is 
 Since the file size is too large for git/github, here's the link to download the [catalog](https://www.gutenberg.org/wiki/Gutenberg:Feeds).
 
 - For instance, here's an extraction from the catalogue, note that in the first row, the text ID is 14600
-```
+```xml
 <pgterms:etext rdf:ID="etext14600">
   <dc:publisher>&pg;</dc:publisher>
   <dc:title rdf:parseType="Literal">Theory of Silk Weaving
@@ -34,6 +34,6 @@ A Treatise on the Construction and Application of Weaves, and the Decomposition 
 </pgterms:etext>
 ```
 - To get the above line of code, use:
-```
+```shell
 wget http://www.gutenberg.org/cache/epub/14600/pg14600.txt  
 ```
