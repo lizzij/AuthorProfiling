@@ -17,28 +17,29 @@ Since the file size is too large for git/github, here's the link to download the
   - For instance, here's an extraction from the catalogue, note that in the first row, the text ID is 1342
   ```xml
   <pgterms:etext rdf:ID="etext1342">
-  <dc:publisher>&pg;</dc:publisher>
-  <dc:title rdf:parseType="Literal">Pride and Prejudice</dc:title>
-  <dc:creator rdf:parseType="Literal">Austen, Jane, 1775-1817</dc:creator>
-  <pgterms:friendlytitle rdf:parseType="Literal">Pride and Prejudice by Jane Austen</pgterms:friendlytitle>
-  <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
-  <dc:subject>
-    <rdf:Bag>
-      <rdf:li><dcterms:LCSH><rdf:value>Young women -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
-      <rdf:li><dcterms:LCSH><rdf:value>England -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
-      <rdf:li><dcterms:LCSH><rdf:value>Domestic fiction</rdf:value></dcterms:LCSH></rdf:li>
-      <rdf:li><dcterms:LCSH><rdf:value>Love stories</rdf:value></dcterms:LCSH></rdf:li>
-      <rdf:li><dcterms:LCSH><rdf:value>Sisters -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
-      <rdf:li><dcterms:LCSH><rdf:value>Social classes -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
-      <rdf:li><dcterms:LCSH><rdf:value>Courtship -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
-    </rdf:Bag>
-  </dc:subject>
-  <dc:subject><dcterms:LCC><rdf:value>PR</rdf:value></dcterms:LCC></dc:subject>
-  <dc:created><dcterms:W3CDTF><rdf:value>1998-06-01</rdf:value></dcterms:W3CDTF></dc:created>
-  <pgterms:downloads><xsd:nonNegativeInteger><rdf:value>38933</rdf:value></xsd:nonNegativeInteger></pgterms:downloads>
-  <dc:rights rdf:resource="&lic;" />
-</pgterms:etext>
+    <dc:publisher>&pg;</dc:publisher>
+    <dc:title rdf:parseType="Literal">Pride and Prejudice</dc:title>
+    <dc:creator rdf:parseType="Literal">Austen, Jane, 1775-1817</dc:creator>
+    <pgterms:friendlytitle rdf:parseType="Literal">Pride and Prejudice by Jane Austen</pgterms:friendlytitle>
+    <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
+    <dc:subject>
+      <rdf:Bag>
+        <rdf:li><dcterms:LCSH><rdf:value>Young women -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
+        <rdf:li><dcterms:LCSH><rdf:value>England -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
+        <rdf:li><dcterms:LCSH><rdf:value>Domestic fiction</rdf:value></dcterms:LCSH></rdf:li>
+        <rdf:li><dcterms:LCSH><rdf:value>Love stories</rdf:value></dcterms:LCSH></rdf:li>
+        <rdf:li><dcterms:LCSH><rdf:value>Sisters -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
+        <rdf:li><dcterms:LCSH><rdf:value>Social classes -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
+        <rdf:li><dcterms:LCSH><rdf:value>Courtship -- Fiction</rdf:value></dcterms:LCSH></rdf:li>
+      </rdf:Bag>
+    </dc:subject>
+    <dc:subject><dcterms:LCC><rdf:value>PR</rdf:value></dcterms:LCC></dc:subject>
+    <dc:created><dcterms:W3CDTF><rdf:value>1998-06-01</rdf:value></dcterms:W3CDTF></dc:created>
+    <pgterms:downloads><xsd:nonNegativeInteger><rdf:value>38933</rdf:value></xsd:nonNegativeInteger></pgterms:downloads>
+    <dc:rights rdf:resource="&lic;" />
+  </pgterms:etext>
   ```
+
   - To get the book from the catalog above, use:
   ```shell
   wget "http://www.gutenberg.org/files/1342/1342-0.txt"
