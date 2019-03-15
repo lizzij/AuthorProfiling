@@ -62,3 +62,7 @@ $ pip install wikipedia
 - Run wiki.py
   - When prompted to input query, type the query and hit Enter (for instance, try "jane austen")
   - Returns a summary from the Wikipedia page containing the birth and publication data of main authors
+
+### Sample Data: Jane Austen
+- Contains a txt with birth year, written year, and list of urls for (English, fictional, non-collection) books
+- Contains the cleaned text for the books
