@@ -37,17 +37,21 @@ get_info <- function(name, url) {
   author <- read_html(url)
   author_html <- html_nodes(author, 'h2 a:nth-child(1)')
   info <- html_text(author_html) %>%
-    str_extract(paste0(name, ",.+")) %>%
+    str_extract(paste0(name, "1.+")) %>%
     remove_na()
   return(info)
 }
 
-infos <- mapply(get_info, data[, "names"], data[, "urls"])
+# birth <- mapply(get_info, data[, "names"], data[, "urls"])
 ```
 
 Export the names, urls, birth years to data.csv 
 
 ```{r}
-# write.csv(data, file = "data.csv")
+birth
+birth_year <- birth %>% 
+  lapply(function(info) str_extract(info, "[:digit:]+\\-")) %>% 
+  lapply(function(info) str_replace(info, "-", "")) 
+birth_year
+write.csv(birth_year, file = "data.csv")
 ```
-
