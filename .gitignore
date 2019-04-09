@@ -1,4 +1,4 @@
 *.rdf
-clean\ data/*
+clean_data/*
 clean/*
-data\ temp/*
+data_temp/*
