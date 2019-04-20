@@ -2,3 +2,4 @@
 clean_data/*
 clean/*
 data_temp/*
+!clean_data/clean.ipynb
