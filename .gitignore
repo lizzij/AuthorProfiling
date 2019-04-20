@@ -3,3 +3,5 @@ clean_data/*
 clean/*
 data_temp/*
 !clean_data/clean.ipynb
+!clean_data/clean_verbose.csv
+!clean_data/clean.csv
