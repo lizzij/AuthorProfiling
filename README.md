@@ -66,3 +66,8 @@ $ pip install wikipedia
 ### Sample Data: Jane Austen
 - Contains a txt with birth year, written year, and list of urls for (English, fictional, non-collection) books
 - Contains the cleaned text for the books
+
+### Cleaned Corpus and Metadata (.csv)
+- [first 200 cleaned (57 books)](https://drive.google.com/open?id=1hDY0QSshBv_b2574L2pFXm7PvDpEGSr1)
+- [first 600 cleaned (133 books)](https://drive.google.com/open?id=1FDJ1zvcHHAw5viKvEi3RAheISXYCRCX7)
+- [first 1200 cleaned (238 books)](https://drive.google.com/open?id=1WcLkI-uBUKJ2V79wGyGE6oY6-24qfaWB)
