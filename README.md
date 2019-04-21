@@ -1,9 +1,14 @@
 # AuthorProfiling
 NLP project: classification of time period and author age in fiction
 
+## Reports
+- [Proposal](https://github.com/lizzij/AuthorProfiling/blob/master/reports/NLP%20Proposal.pdf)
+- [Progress Report](https://github.com/lizzij/AuthorProfiling/blob/master/reports/NLP%20Progress%20Report.pdf)
+- [Final Report]()
+
 ## Preprocessing
 
-### Get Corpus from Gutenberg
+### Navigating Gutenberg
 - Get text files in English Language (ISO code EN)
 ```shell
 wget -w 2 -m -H "http://www.gutenberg.org/robot/harvest?filetypes[]=txt&langs[]=en"
@@ -91,15 +96,17 @@ $ pip install wikipedia
   - When prompted to input query, type the query and hit Enter (for instance, try "jane austen")
   - Returns a summary from the Wikipedia page containing the birth and publication data of main authors
 
-### Sample Data: Jane Austen
-- Contains a txt with birth year, written year, and list of urls for (English, fictional, non-collection) books
-- Contains the cleaned text for the books
-
 ### Clean Data, Tag Categories
--
-- Run clean.ipynb
+- Move `text/` to the same directory rename `metadata.csv` to `clean_all.csv`
+- Run `clean.ipynb`
 
 ### Data
 - [first 200 cleaned (57 books)](https://drive.google.com/open?id=1hDY0QSshBv_b2574L2pFXm7PvDpEGSr1)
 - [first 600 cleaned (133 books)](https://drive.google.com/open?id=1FDJ1zvcHHAw5viKvEi3RAheISXYCRCX7)
 - [first 1200 cleaned (238 books)](https://drive.google.com/open?id=1WcLkI-uBUKJ2V79wGyGE6oY6-24qfaWB)
+- [first 1200, 5000-6500 (328 books)](https://drive.google.com/open?id=1eJ7CR9lX544_IXwbBXgUgY9pEpIpg9vK)
+- [first 1200, 5000-7500 (380 books)](https://drive.google.com/open?id=1CiAIq8zgWzrQRSkiacvkmIAaHaocmslT)
+- [first 1200, 5000-8500 (412 books)](https://drive.google.com/open?id=1pEZ7zU4-HrkvWt2q-t83p-RPUvMPmb-1)
+- [first 3000, 5000-6500 (582 books)](https://drive.google.com/open?id=1veTg-NOKbNrp-TIadYNLBlt7BZhdaL5Z)
+- [first 3500, 5000-8500 (621 books)](https://drive.google.com/open?id=13OAsKLyJGmLsiOcZcc--F7fYBtCTndZg)
+- [first 8500 (711 books)](https://drive.google.com/open?id=1u0iFeKaIEC7u7FBWkHS6fMWueHn3C30h)
