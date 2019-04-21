@@ -83,7 +83,7 @@ This will fill in the `text/`, `tokens/` and `counts/` folders.
 
 ### Get Age and Time Period from Wikipedia
 - Begin by installing wikipedia:
-```
+```bash
 $ pip install wikipedia
 ```
 
