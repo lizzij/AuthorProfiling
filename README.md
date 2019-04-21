@@ -6,7 +6,7 @@ NLP project: classification of time period and author age in fiction
 - [Progress Report](https://github.com/lizzij/AuthorProfiling/blob/master/reports/NLP%20Progress%20Report.pdf)
 - [Final Report]()
 
-## Preprocessing
+## Data Preprocessing
 
 ### Navigating Gutenberg
 - Get text files in English Language (ISO code EN)
