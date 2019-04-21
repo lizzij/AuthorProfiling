@@ -53,9 +53,37 @@ Since the file size is too large for git/github, here's the link to download the
   - http://www.gutenberg.org/authors/Jane_Austen
 - Note that audio, and non-English documents should be excluded
 
+### Generate Standard Corpus and Metadata
+- generate the corpus locally [here](https://github.com/pgcorpus/gutenberg)
+```bash
+git clone https://github.com/pgcorpus/gutenberg.git
+```
+- enter the newly created `gutenberg` directory
+```bash
+cd gutenberg
+```
+
+- To install any missing dependencies, just run
+```bash
+pip install -r requirements.txt
+```
+
+- To get a local copy of the PG data, just run
+```
+python get_data.py
+```
+This will download a copy of all UTF-8 books in PG and will create a csv file with metadata (e.g. author, title, year, ...).
+ `get_data.py`.
+
+- To process all the data in the `raw/` directory, run
+```bash
+python process_data.py
+```
+This will fill in the `text/`, `tokens/` and `counts/` folders.
+
 ### Get Age and Time Period from Wikipedia
 - Begin by installing wikipedia:
-```
+```bash
 $ pip install wikipedia
 ```
 
@@ -67,7 +95,11 @@ $ pip install wikipedia
 - Contains a txt with birth year, written year, and list of urls for (English, fictional, non-collection) books
 - Contains the cleaned text for the books
 
-### Cleaned Corpus and Metadata (.csv)
+### Clean Data, Tag Categories
+-
+- Run clean.ipynb
+
+### Data
 - [first 200 cleaned (57 books)](https://drive.google.com/open?id=1hDY0QSshBv_b2574L2pFXm7PvDpEGSr1)
 - [first 600 cleaned (133 books)](https://drive.google.com/open?id=1FDJ1zvcHHAw5viKvEi3RAheISXYCRCX7)
 - [first 1200 cleaned (238 books)](https://drive.google.com/open?id=1WcLkI-uBUKJ2V79wGyGE6oY6-24qfaWB)
