@@ -5,7 +5,7 @@ GIT REPO LINK: https://github.com/lizzij/AuthorProfiling
 ## Reports
 - [Proposal](https://github.com/lizzij/AuthorProfiling/blob/master/reports/NLP%20Proposal.pdf)
 - [Progress Report](https://github.com/lizzij/AuthorProfiling/blob/master/reports/NLP%20Progress%20Report.pdf)
-- [Final Report]()
+- [Final Report](https://github.com/lizzij/AuthorProfiling/blob/master/reports/NLP%20Final%20Report.pdf)
 
 ## Data Preprocessing (to get clean data, skip down to the links found under Data)
 
