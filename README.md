@@ -6,7 +6,7 @@ NLP project: classification of time period and author age in fiction
 - [Progress Report](https://github.com/lizzij/AuthorProfiling/blob/master/reports/NLP%20Progress%20Report.pdf)
 - [Final Report]()
 
-## Data Preprocessing
+## Data Preprocessing (to get clean data, skip down to the links found under Data)
 
 ### Navigating Gutenberg
 - Get text files in English Language (ISO code EN)
@@ -112,8 +112,9 @@ $ pip install wikipedia
 - [first 8500 (711 books)](https://drive.google.com/open?id=1u0iFeKaIEC7u7FBWkHS6fMWueHn3C30h)
 
 ### Running the Code
+- Select one of the above datasets (longer will take significantly longer to run) and download it. 
 - The code to extract features, create a random forest model, and evaluate said model is located in feature_tagging.ipynb
-- If you are using a dataset and csv located somewhere other than the clean_data directory, change the root_dir and csv_name variables. After this, all cells in the notebook can be run in sequence, without altering any variables
+- If you are using a dataset and csv located somewhere other than the clean_data directory (i.e., one of the downloaded datasets), change the root_dir and csv_name variables. After this, all cells in the notebook can be run in sequence, without altering any variables
 - After generating the feature vectors, the resulting data can be dumped into csv files for later examination. This code can be found in the sixth cell, right before running the random forest model. 
 - More specific information about each cell and each function can be found in comments throughout the notebook.
-- Note that this code requires the Stanford POS Tagger and NER Extractor in order to work. 
+- Note that this code requires the Stanford POS Tagger and NER Extractor in order to work. These can be found on our git page.
