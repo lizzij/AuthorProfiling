@@ -1,5 +1,6 @@
 # AuthorProfiling
 NLP project: classification of time period and author age in fiction
+GIT REPO LINK: https://github.com/lizzij/AuthorProfiling
 
 ## Reports
 - [Proposal](https://github.com/lizzij/AuthorProfiling/blob/master/reports/NLP%20Proposal.pdf)
