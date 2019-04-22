@@ -110,3 +110,10 @@ $ pip install wikipedia
 - [first 3000, 5000-6500 (582 books)](https://drive.google.com/open?id=1veTg-NOKbNrp-TIadYNLBlt7BZhdaL5Z)
 - [first 3500, 5000-8500 (621 books)](https://drive.google.com/open?id=13OAsKLyJGmLsiOcZcc--F7fYBtCTndZg)
 - [first 8500 (711 books)](https://drive.google.com/open?id=1u0iFeKaIEC7u7FBWkHS6fMWueHn3C30h)
+
+### Running the Code
+- The code to extract features, create a random forest model, and evaluate said model is located in feature_tagging.ipynb
+- If you are using a dataset and csv located somewhere other than the clean_data directory, change the root_dir and csv_name variables. After this, all cells in the notebook can be run in sequence, without altering any variables
+- After generating the feature vectors, the resulting data can be dumped into csv files for later examination. This code can be found in the sixth cell, right before running the random forest model. 
+- More specific information about each cell and each function can be found in comments throughout the notebook.
+- Note that this code requires the Stanford POS Tagger and NER Extractor in order to work. 
